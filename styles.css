@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+    color: rgb(152, 15, 15);
+    margin: 0;
+
+}
+
+.container {
+    text-align: center;
+    background: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%; /* Largura responsiva */
+    max-height:100%;
+    max-width: 370px; /* Limite máximo de largura */
+    
+}
+
+.header-image {
+    width: 150px; /* Imagem responsiva */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-bottom: 20px; /* Espaço entre a imagem e o título */
+    border-radius: 10px;
+}
+   
+
+
+#timer {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens se movam para a próxima linha em telas menores */
+    justify-content: center; /* Centraliza os itens */
+    margin-top: 20px;
+}
+
+.time {
+    font-size: 1.5em;
+    margin: 5px; /* Espaçamento entre os itens */
+}
+
+/* Media Queries para telas menores */
+@media (max-width: 600px) {
+    .time {
+        font-size: 1.2em; /* Reduz o tamanho da fonte em telas menores */
+    }
+
+    .header-image {
+        width: 100%; /* Garante que a imagem ocupe 100% da largura disponível */
+    }
+}
+.home{
+    /* Estilos para a página inicial */
+
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.surprise-button {
+    padding: 15px 30px;
+    font-size: 1.5em;
+    background-color: rgb(152, 15, 15);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.surprise-button:hover {
+    background-color: #ff4040;
+}
+
+.grid-container {
+    display: grid;
+    place-items: center; /* Centraliza horizontal e verticalmente */
+    height: 50vh; /* Ajuste conforme necessário */
+
+    text-align: center;
+    background: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%; /* Largura responsiva */
+    max-height:100%;
+    max-width: 370px; /* Limite máximo de largura */
+}
