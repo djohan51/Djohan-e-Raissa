@@ -23,7 +23,7 @@ body {
 }
 
 .header-image {
-    width: 150px; /* Imagem responsiva */
+    width: 140px; /* Imagem responsiva */
     height: auto; /* Mantém a proporção da imagem */
     margin-bottom: 10px; /* Espaço entre a imagem e o título */
     border-radius: 10px;
